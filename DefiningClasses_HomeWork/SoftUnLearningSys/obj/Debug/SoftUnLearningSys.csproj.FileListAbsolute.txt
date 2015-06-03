@@ -1,0 +1,6 @@
+D:\VSProjects\DefiningClasses_HomeWork\SoftUnLearningSys\bin\Debug\SoftUnLearningSys.exe.config
+D:\VSProjects\DefiningClasses_HomeWork\SoftUnLearningSys\obj\Debug\SoftUnLearningSys.csprojResolveAssemblyReference.cache
+D:\VSProjects\DefiningClasses_HomeWork\SoftUnLearningSys\bin\Debug\SoftUnLearningSys.exe
+D:\VSProjects\DefiningClasses_HomeWork\SoftUnLearningSys\bin\Debug\SoftUnLearningSys.pdb
+D:\VSProjects\DefiningClasses_HomeWork\SoftUnLearningSys\obj\Debug\SoftUnLearningSys.exe
+D:\VSProjects\DefiningClasses_HomeWork\SoftUnLearningSys\obj\Debug\SoftUnLearningSys.pdb

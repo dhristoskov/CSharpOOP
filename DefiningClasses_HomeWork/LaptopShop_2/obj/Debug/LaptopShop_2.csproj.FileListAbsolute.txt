@@ -1,0 +1,6 @@
+D:\VSProjects\DefiningClasses_HomeWork\LaptopShop_2\bin\Debug\LaptopShop_2.exe.config
+D:\VSProjects\DefiningClasses_HomeWork\LaptopShop_2\bin\Debug\LaptopShop_2.exe
+D:\VSProjects\DefiningClasses_HomeWork\LaptopShop_2\bin\Debug\LaptopShop_2.pdb
+D:\VSProjects\DefiningClasses_HomeWork\LaptopShop_2\obj\Debug\LaptopShop_2.csprojResolveAssemblyReference.cache
+D:\VSProjects\DefiningClasses_HomeWork\LaptopShop_2\obj\Debug\LaptopShop_2.exe
+D:\VSProjects\DefiningClasses_HomeWork\LaptopShop_2\obj\Debug\LaptopShop_2.pdb

@@ -1,0 +1,6 @@
+D:\VSProjects\DefiningClasses_HomeWork\PCCatalog\bin\Debug\PCCatalog.exe.config
+D:\VSProjects\DefiningClasses_HomeWork\PCCatalog\obj\Debug\PCCatalog.csprojResolveAssemblyReference.cache
+D:\VSProjects\DefiningClasses_HomeWork\PCCatalog\bin\Debug\PCCatalog.exe
+D:\VSProjects\DefiningClasses_HomeWork\PCCatalog\bin\Debug\PCCatalog.pdb
+D:\VSProjects\DefiningClasses_HomeWork\PCCatalog\obj\Debug\PCCatalog.exe
+D:\VSProjects\DefiningClasses_HomeWork\PCCatalog\obj\Debug\PCCatalog.pdb
