@@ -12,15 +12,14 @@ namespace EnterNumbers_2
         private const int start = 1;
         private const int end = 100;
 
-        private static int ReadNumbers()
-        {
-            string num = Console.ReadLine();
+        private static int ReadNumbers(string num)
+        {            
             int number;
             if (!int.TryParse(num, out number))
             {
                 throw new FormatException();
             }
-            else if (number <= 1 || number > 100)
+            else if (number <= start || number > end)
             {
                 throw new ArgumentOutOfRangeException();
             }
@@ -39,7 +38,7 @@ namespace EnterNumbers_2
             {
                 try
                 {
-                    int number = ReadNumbers();
+                    int number = ReadNumbers(Console.ReadLine());
                     numbers.Add(number);
                 }
                 catch (FormatException)
