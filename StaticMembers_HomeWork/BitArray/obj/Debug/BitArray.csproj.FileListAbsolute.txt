@@ -1,0 +1,6 @@
+D:\VSProjects\StaticMembers_HomeWork\BitArray\bin\Debug\BitArray.exe.config
+D:\VSProjects\StaticMembers_HomeWork\BitArray\bin\Debug\BitArray.exe
+D:\VSProjects\StaticMembers_HomeWork\BitArray\bin\Debug\BitArray.pdb
+D:\VSProjects\StaticMembers_HomeWork\BitArray\obj\Debug\BitArray.csprojResolveAssemblyReference.cache
+D:\VSProjects\StaticMembers_HomeWork\BitArray\obj\Debug\BitArray.exe
+D:\VSProjects\StaticMembers_HomeWork\BitArray\obj\Debug\BitArray.pdb
