@@ -1,0 +1,6 @@
+D:\VSProjects\ExceptionHandling\SquareRoot_1\bin\Debug\SquareRoot_1.exe.config
+D:\VSProjects\ExceptionHandling\SquareRoot_1\bin\Debug\SquareRoot_1.exe
+D:\VSProjects\ExceptionHandling\SquareRoot_1\bin\Debug\SquareRoot_1.pdb
+D:\VSProjects\ExceptionHandling\SquareRoot_1\obj\Debug\SquareRoot_1.csprojResolveAssemblyReference.cache
+D:\VSProjects\ExceptionHandling\SquareRoot_1\obj\Debug\SquareRoot_1.exe
+D:\VSProjects\ExceptionHandling\SquareRoot_1\obj\Debug\SquareRoot_1.pdb

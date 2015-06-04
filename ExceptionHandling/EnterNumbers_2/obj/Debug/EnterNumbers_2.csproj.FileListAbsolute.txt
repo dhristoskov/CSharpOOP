@@ -1,0 +1,6 @@
+D:\VSProjects\ExceptionHandling\EnterNumbers_2\bin\Debug\EnterNumbers_2.exe.config
+D:\VSProjects\ExceptionHandling\EnterNumbers_2\bin\Debug\EnterNumbers_2.exe
+D:\VSProjects\ExceptionHandling\EnterNumbers_2\bin\Debug\EnterNumbers_2.pdb
+D:\VSProjects\ExceptionHandling\EnterNumbers_2\obj\Debug\EnterNumbers_2.csprojResolveAssemblyReference.cache
+D:\VSProjects\ExceptionHandling\EnterNumbers_2\obj\Debug\EnterNumbers_2.exe
+D:\VSProjects\ExceptionHandling\EnterNumbers_2\obj\Debug\EnterNumbers_2.pdb
