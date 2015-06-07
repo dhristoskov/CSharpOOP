@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Problem03.Employee">
+    <Position X="5.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAgAAAEAAAAAAAQEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassHierarchy\Employee.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Problem03.Manager">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAIAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassHierarchy\Manager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Problem03.RegularEmployee">
+    <Position X="3.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassHierarchy\RegularEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Problem03.SalesEmployee">
+    <Position X="5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassHierarchy\SalesEmployee.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Problem03.Developer">
+    <Position X="1.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAABAAAAAQA=</HashCode>
+      <FileName>ClassHierarchy\Developer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Problem03.Customer">
+    <Position X="8.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAEABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassHierarchy\Customer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Problem03.Person">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAABAgAAEAAAAAAAAAAAAAAAAAAAACAAAAgg=</HashCode>
+      <FileName>ClassHierarchy\Person.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Problem03.Sale">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAAAEAAAAAAAAAAAAAAABAAgAAQAIAAA=</HashCode>
+      <FileName>ClassHierarchy\Sale.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Problem03.Project">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAABAAAECQAAAAgAAAAEAAAEAAAABEAAAAA=</HashCode>
+      <FileName>ClassHierarchy\Project.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Problem03.IPerson">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Interfaces\IPerson.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Problem03.IEmployee">
+    <Position X="11.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Problem03.IManager">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Problem03.ICustomer">
+    <Position X="11.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICustomer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Problem03.ISalesEmployee">
+    <Position X="11.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ISalesEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Problem03.ISale">
+    <Position X="11.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAABAAAAAAAIAAA=</HashCode>
+      <FileName>Interfaces\ISale.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Problem03.IDeveloper">
+    <Position X="11.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Interfaces\IDeveloper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Problem03.IProject">
+    <Position X="11.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAACAAAAAAAAAAEAAAAAAAABEAAAAA=</HashCode>
+      <FileName>Interfaces\IProject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Problem03.Departments">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAABAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\Departments.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Problem03.States">
+    <Position X="9.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Enums\States.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

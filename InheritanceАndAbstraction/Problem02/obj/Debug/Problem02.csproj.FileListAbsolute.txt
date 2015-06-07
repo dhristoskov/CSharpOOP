@@ -1,0 +1,6 @@
+D:\VSProjects\InheritanceАndAbstraction\Problem02\bin\Debug\Problem02.exe.config
+D:\VSProjects\InheritanceАndAbstraction\Problem02\obj\Debug\Problem02.csprojResolveAssemblyReference.cache
+D:\VSProjects\InheritanceАndAbstraction\Problem02\bin\Debug\Problem02.exe
+D:\VSProjects\InheritanceАndAbstraction\Problem02\bin\Debug\Problem02.pdb
+D:\VSProjects\InheritanceАndAbstraction\Problem02\obj\Debug\Problem02.exe
+D:\VSProjects\InheritanceАndAbstraction\Problem02\obj\Debug\Problem02.pdb
