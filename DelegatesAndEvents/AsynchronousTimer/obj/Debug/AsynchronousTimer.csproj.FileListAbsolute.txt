@@ -1,0 +1,5 @@
+D:\VSProjects\DelegatesAndEvents\AsynchronousTimer\bin\Debug\AsynchronousTimer.exe.config
+D:\VSProjects\DelegatesAndEvents\AsynchronousTimer\bin\Debug\AsynchronousTimer.exe
+D:\VSProjects\DelegatesAndEvents\AsynchronousTimer\bin\Debug\AsynchronousTimer.pdb
+D:\VSProjects\DelegatesAndEvents\AsynchronousTimer\obj\Debug\AsynchronousTimer.exe
+D:\VSProjects\DelegatesAndEvents\AsynchronousTimer\obj\Debug\AsynchronousTimer.pdb

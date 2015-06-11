@@ -1,0 +1,6 @@
+D:\VSProjects\DelegatesAndEvents\StudentClass\bin\Debug\StudentClass.exe.config
+D:\VSProjects\DelegatesAndEvents\StudentClass\obj\Debug\StudentClass.csprojResolveAssemblyReference.cache
+D:\VSProjects\DelegatesAndEvents\StudentClass\bin\Debug\StudentClass.exe
+D:\VSProjects\DelegatesAndEvents\StudentClass\bin\Debug\StudentClass.pdb
+D:\VSProjects\DelegatesAndEvents\StudentClass\obj\Debug\StudentClass.exe
+D:\VSProjects\DelegatesAndEvents\StudentClass\obj\Debug\StudentClass.pdb

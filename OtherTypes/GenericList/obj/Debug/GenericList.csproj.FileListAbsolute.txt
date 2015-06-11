@@ -1,0 +1,6 @@
+D:\VSProjects\OtherTypes\GenericList\bin\Debug\GenericList.exe.config
+D:\VSProjects\OtherTypes\GenericList\bin\Debug\GenericList.exe
+D:\VSProjects\OtherTypes\GenericList\bin\Debug\GenericList.pdb
+D:\VSProjects\OtherTypes\GenericList\obj\Debug\GenericList.csprojResolveAssemblyReference.cache
+D:\VSProjects\OtherTypes\GenericList\obj\Debug\GenericList.exe
+D:\VSProjects\OtherTypes\GenericList\obj\Debug\GenericList.pdb
