@@ -20,6 +20,13 @@ namespace InterestCalculator
 
         static void Main(string[] args)
         {
+
+            //Using class instance
+            InterestCalculator simple = new InterestCalculator(500, 5.6m, 10, GetCompoundInterest);
+            Console.WriteLine(simple);
+            InterestCalculator compound = new InterestCalculator(2500, 7.2m, 15, GetSimpleInterest);
+            Console.WriteLine(compound);
+
             //Func delegate
             Func<decimal, decimal, int, decimal> firstDelegate = (GetCompoundInterest);
             Console.WriteLine("{0:f4}", firstDelegate(500, 5.6m, 10));

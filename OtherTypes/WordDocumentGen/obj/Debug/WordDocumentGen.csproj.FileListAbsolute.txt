@@ -1,1 +1,9 @@
 D:\VSProjects\OtherTypes\WordDocumentGen\bin\Debug\WordDocumentGen.exe.config
+D:\VSProjects\OtherTypes\WordDocumentGen\obj\Debug\WordDocumentGen.csprojResolveAssemblyReference.cache
+D:\VSProjects\OtherTypes\WordDocumentGen\bin\Debug\Content\rpg-game.png
+D:\VSProjects\OtherTypes\WordDocumentGen\bin\Debug\Content\text.txt
+D:\VSProjects\OtherTypes\WordDocumentGen\bin\Debug\WordDocumentGen.exe
+D:\VSProjects\OtherTypes\WordDocumentGen\bin\Debug\WordDocumentGen.pdb
+D:\VSProjects\OtherTypes\WordDocumentGen\bin\Debug\DocX.dll
+D:\VSProjects\OtherTypes\WordDocumentGen\obj\Debug\WordDocumentGen.exe
+D:\VSProjects\OtherTypes\WordDocumentGen\obj\Debug\WordDocumentGen.pdb

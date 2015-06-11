@@ -6,26 +6,21 @@ using System.Threading.Tasks;
 
 namespace InterestCalculator
 {
-    /*In main class I'm using 
-     * Action<> and Func<> so I 
-     * don't need to declare delegate
-     */
-
-    //public delegate decimal CalculateInterest(decimal money,decimal interestRate,int years);
+    public delegate decimal CalculateInterest(decimal money,decimal interestRate,int years);
 
     class InterestCalculator
     {
         private decimal money;
         private decimal interestRate;
         private int years;
-        //private CalculateInterest result;
+        public CalculateInterest Result { get; set; }
 
-        public InterestCalculator(decimal money,decimal interestRate,int years)
+        public InterestCalculator(decimal money,decimal interestRate,int years,CalculateInterest result)
         {
             this.Money = money;
             this.InterestRate = interestRate;
             this.Years = years;
-            //this.Result = result;
+            this.Result = result;
         }
 
         public decimal Money 
@@ -65,6 +60,10 @@ namespace InterestCalculator
                 }
                 this.years = value;
             }
+        }
+        public override string ToString()
+        {
+            return String.Format("{0:f4}", this.Result(this.Money, this.InterestRate, this.Years));
         }
     }
 }
