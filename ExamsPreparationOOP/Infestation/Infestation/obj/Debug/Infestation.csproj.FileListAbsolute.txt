@@ -1,0 +1,5 @@
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Infestation\Infestation\obj\Debug\Infestation.csprojResolveAssemblyReference.cache
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Infestation\Infestation\bin\Debug\Infestation.exe
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Infestation\Infestation\bin\Debug\Infestation.pdb
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Infestation\Infestation\obj\Debug\Infestation.exe
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Infestation\Infestation\obj\Debug\Infestation.pdb
