@@ -1,0 +1,2 @@
+C:\Users\Mike\Desktop\MusicShop\bin\Debug\MusicShopManager.exe.config
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\MusicShopManager\bin\Debug\MusicShopManager.exe.config
