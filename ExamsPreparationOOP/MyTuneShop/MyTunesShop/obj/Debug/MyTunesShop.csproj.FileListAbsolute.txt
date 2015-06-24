@@ -1,0 +1,6 @@
+C:\Users\Inspiritus\Desktop\MyTunesShop-Skeleton\MyTunesShop\bin\Debug\MyTunesShop.exe.config
+C:\Users\Inspiritus\Desktop\MyTunesShop-Skeleton\MyTunesShop\bin\Debug\MyTunesShop.exe
+C:\Users\Inspiritus\Desktop\MyTunesShop-Skeleton\MyTunesShop\bin\Debug\MyTunesShop.pdb
+C:\Users\Inspiritus\Desktop\MyTunesShop-Skeleton\MyTunesShop\obj\Debug\MyTunesShop.csprojResolveAssemblyReference.cache
+C:\Users\Inspiritus\Desktop\MyTunesShop-Skeleton\MyTunesShop\obj\Debug\MyTunesShop.exe
+C:\Users\Inspiritus\Desktop\MyTunesShop-Skeleton\MyTunesShop\obj\Debug\MyTunesShop.pdb
