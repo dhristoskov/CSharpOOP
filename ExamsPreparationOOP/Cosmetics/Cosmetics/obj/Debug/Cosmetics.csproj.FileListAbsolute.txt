@@ -1,0 +1,6 @@
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Cosmetics\Cosmetics\bin\Debug\Cosmetics.exe.config
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Cosmetics\Cosmetics\bin\Debug\Cosmetics.exe
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Cosmetics\Cosmetics\bin\Debug\Cosmetics.pdb
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Cosmetics\Cosmetics\obj\Debug\Cosmetics.csprojResolveAssemblyReference.cache
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Cosmetics\Cosmetics\obj\Debug\Cosmetics.exe
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Cosmetics\Cosmetics\obj\Debug\Cosmetics.pdb
