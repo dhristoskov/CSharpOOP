@@ -1,0 +1,6 @@
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Army of Creatures\ArmyOfCreatures\bin\Debug\ArmyOfCreatures.exe.config
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Army of Creatures\ArmyOfCreatures\bin\Debug\ArmyOfCreatures.exe
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Army of Creatures\ArmyOfCreatures\bin\Debug\ArmyOfCreatures.pdb
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Army of Creatures\ArmyOfCreatures\obj\Debug\ArmyOfCreatures.csprojResolveAssemblyReference.cache
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Army of Creatures\ArmyOfCreatures\obj\Debug\ArmyOfCreatures.exe
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Army of Creatures\ArmyOfCreatures\obj\Debug\ArmyOfCreatures.pdb
