@@ -1,0 +1,6 @@
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\MassEffect\MassEffect\bin\Debug\MassEffect.exe.config
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\MassEffect\MassEffect\bin\Debug\MassEffect.exe
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\MassEffect\MassEffect\bin\Debug\MassEffect.pdb
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\MassEffect\MassEffect\obj\Debug\MassEffect.csprojResolveAssemblyReference.cache
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\MassEffect\MassEffect\obj\Debug\MassEffect.exe
+D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\MassEffect\MassEffect\obj\Debug\MassEffect.pdb
