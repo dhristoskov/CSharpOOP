@@ -1,5 +1,5 @@
-D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Estates\bin\Debug\Estates.exe
-D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Estates\bin\Debug\Estates.pdb
-D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Estates\obj\Debug\Estates.csprojResolveAssemblyReference.cache
-D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Estates\obj\Debug\Estates.exe
-D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\Estates\obj\Debug\Estates.pdb
+D:\Programming Apps&Projects\VSProjects\ReTake_OOP\Estates\bin\Debug\Estates.exe
+D:\Programming Apps&Projects\VSProjects\ReTake_OOP\Estates\bin\Debug\Estates.pdb
+D:\Programming Apps&Projects\VSProjects\ReTake_OOP\Estates\obj\Debug\Estates.csprojResolveAssemblyReference.cache
+D:\Programming Apps&Projects\VSProjects\ReTake_OOP\Estates\obj\Debug\Estates.exe
+D:\Programming Apps&Projects\VSProjects\ReTake_OOP\Estates\obj\Debug\Estates.pdb

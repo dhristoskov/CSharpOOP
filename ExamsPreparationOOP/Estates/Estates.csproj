@@ -39,8 +39,9 @@
     <Compile Include="Data\EstateFactory.cs" />
     <Compile Include="Engine\EstatesAgency.cs" />
     <Compile Include="Data\Estate.cs" />
-    <Compile Include="Data\House.cs" />
     <Compile Include="Data\Garage.cs" />
+    <Compile Include="Data\House.cs" />
+    <Compile Include="Data\ExtendedEstateEngine.cs" />
     <Compile Include="Interfaces\IEstateEngine.cs" />
     <Compile Include="Interfaces\EstateType.cs" />
     <Compile Include="Interfaces\IBuildingEstate.cs" />
@@ -56,11 +57,11 @@
     <Compile Include="Interfaces\OfferType.cs" />
     <Compile Include="Data\Office.cs" />
     <Compile Include="Data\Offer.cs" />
-    <Compile Include="Data\RentOffer.cs" />
     <Compile Include="Data\SaleOffer.cs" />
-    <Compile Include="Data\NewEstateEngine.cs" />
+    <Compile Include="Data\RentOffer.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="EstateDiagram.cd" />
     <None Include="Interfaces\InterfacesClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

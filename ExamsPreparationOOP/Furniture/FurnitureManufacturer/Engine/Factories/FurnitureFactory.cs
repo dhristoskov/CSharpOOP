@@ -13,33 +13,28 @@
         private const string Plastic = "plastic";
         private const string InvalidMaterialName = "Invalid material name: {0}";
 
-        public ITable CreateTable(string model, string materialType, decimal price, decimal height, decimal length,
-            decimal width)
+        public ITable CreateTable(string model, string materialType, decimal price, decimal height, decimal length, decimal width)
         {
-            MaterialType type = GetMaterialType(materialType);
-            Table createdTable = new Table(model, type, price, height, length, width);
-            return createdTable;
+            var type = GetMaterialType(materialType);
+            return new Table(model, type, price, height, length, width);
         }
 
         public IChair CreateChair(string model, string materialType, decimal price, decimal height, int numberOfLegs)
         {
-            MaterialType type = GetMaterialType(materialType);
-            Chair createdChair = new Chair(model, type, price, height, numberOfLegs);
-            return createdChair;
+            var type = GetMaterialType(materialType);
+            return new Chair( model,  type,  price,  height,  numberOfLegs);
         }
 
         public IAdjustableChair CreateAdjustableChair(string model, string materialType, decimal price, decimal height, int numberOfLegs)
         {
-            MaterialType type = GetMaterialType(materialType);
-            AdjustableChair createdAdjustableChair = new AdjustableChair(model, type, price, height, numberOfLegs);
-            return createdAdjustableChair;
+            var type = GetMaterialType(materialType);
+            return new AdjustableChair(model, type, price, height, numberOfLegs);
         }
 
         public IConvertibleChair CreateConvertibleChair(string model, string materialType, decimal price, decimal height, int numberOfLegs)
         {
-            MaterialType type = GetMaterialType(materialType);
-            ConvertibleChair createdConvertibleChair = new ConvertibleChair(model, type, price, height, numberOfLegs);
-            return createdConvertibleChair;
+            var type = GetMaterialType(materialType);
+            return new ConvertibleChair(model, type, price, height, numberOfLegs);
         }
 
         private MaterialType GetMaterialType(string material)

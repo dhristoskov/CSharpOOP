@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using FurnitureManufacturer.Interfaces;
 
 namespace FurnitureManufacturer.Models
@@ -11,26 +10,23 @@ namespace FurnitureManufacturer.Models
     public class Company : ICompany
     {
         private string _name;
-        private string _regNumber;
-        private readonly List<IFurniture> _furnitures;
+        private string _registrationNumber;
 
-        public Company(string name, string regNumber)
+        public Company(string name, string registrationNumber)
         {
             this.Name = name;
-            this.RegistrationNumber = regNumber;
-            this._furnitures = new List<IFurniture>();
+            this.RegistrationNumber = registrationNumber;
+            this.Furnitures = new List<IFurniture>();
         }
-
-        #region Properties
 
         public string Name
         {
             get { return this._name; }
-            set
+            private set
             {
                 if (String.IsNullOrWhiteSpace(value) || value.Length < 5)
                 {
-                    throw new ArgumentNullException();
+                    throw new ArgumentNullException("Name", "Name can not be null, empty or less than 5 symbols!");
                 }
                 this._name = value;
             }
@@ -38,62 +34,60 @@ namespace FurnitureManufacturer.Models
 
         public string RegistrationNumber
         {
-            get { return this._regNumber; }
-            set
+            get { return this._registrationNumber; }
+            private set
             {
                 Regex rgx = new Regex(@"^\d{10}$");
-                if (!rgx.IsMatch(value))
+                if (!rgx.IsMatch(value)||String.IsNullOrWhiteSpace(value))
                 {
-                    throw new ArgumentOutOfRangeException();
+                    throw new ArgumentOutOfRangeException("Registration Number",
+                        "Registration number must be 10 digits long!");
                 }
-                this._regNumber = value;
+                this._registrationNumber = value;
             }
         }
 
-        #endregion
-
-        #region Methods
-
-        public ICollection<IFurniture> Furnitures => this._furnitures;
+        public ICollection<IFurniture> Furnitures { get; private set; }
 
         public void Add(IFurniture furniture)
         {
-            this._furnitures.Add(furniture);
+            this.Furnitures.Add(furniture);
         }
 
         public void Remove(IFurniture furniture)
         {
-            if (_furnitures.Any(
-                x => x.Model == furniture.Model
-                     && x.Price == furniture.Price
-                     && x.Material == furniture.Material
-                     && x.Height == furniture.Height
-                ))
-            {
-                _furnitures.Remove(furniture);
+            if (
+                this.Furnitures.Any(x => x.Model == furniture.Model
+                                         && x.Price == furniture.Price
+                                         && x.Height == furniture.Height
+                                         && x.Material == furniture.Material))
+            {             
+                Furnitures.Remove(furniture);
             }
         }
 
         public IFurniture Find(string model)
         {
-            var product = _furnitures.FirstOrDefault(prod => prod.Model.ToLower() == model.ToLower());
-            return product;
+            var furnitureToBeFind = this.Furnitures.FirstOrDefault(x => x.Model.ToLower() == model.ToLower());
+            return furnitureToBeFind;
         }
 
         public string Catalog()
         {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("{0} - {1} - {2} {3}", this.Name, this.RegistrationNumber,
+            StringBuilder catalog = new StringBuilder();
+
+            catalog.AppendFormat("{0} - {1} - {2} {3}", this.Name, this.RegistrationNumber,
                 this.Furnitures.Count != 0 ? this.Furnitures.Count.ToString() : "no",
                 this.Furnitures.Count != 1 ? "furnitures" : "furniture");
-            sb.AppendLine();
-            foreach (var furniture in this.Furnitures.OrderBy(x => x.Price).ThenBy(x => x.Model))
+          
+            foreach (var product in this.Furnitures.OrderBy(f=>f.Price).ThenBy(f=>f.Model))
             {
-                sb.AppendLine(furniture.ToString());
+                catalog.AppendLine();
+                catalog.Append(product.ToString());
             }
-            return sb.ToString();
-        }
 
-        #endregion
+            return catalog.ToString();
+        }
     }
 }
+

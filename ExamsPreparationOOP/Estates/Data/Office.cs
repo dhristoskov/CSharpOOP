@@ -2,11 +2,11 @@
 
 namespace Estates.Data
 {
-    public class Office : BuildingEstate,IOffice
+    public class Office : BuildingEstate, IOffice
     {
         public Office()
         {
-            this.Type = EstateType.Office;
+            base.Type = EstateType.Office;
         }
     }
 }

@@ -7,7 +7,7 @@ using Estates.Interfaces;
 
 namespace Estates.Engine
 {
-    public class EstateEngine : IEstateEngine
+    class EstateEngine : IEstateEngine
     {
         protected List<IEstate> Estates { get; set; }
         private HashSet<string> uniqueEstateNames = new HashSet<string>();

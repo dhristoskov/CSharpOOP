@@ -41,33 +41,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NewHoldingPen.cs" />
-    <Compile Include="Parasite.cs" />
-    <Compile Include="Queen.cs" />
-    <Compile Include="Supplements\AggressionCatalyst.cs" />
-    <Compile Include="Supplements\HealthCatalyst.cs" />
-    <Compile Include="Supplements\InfestationSpores.cs" />
-    <Compile Include="Supplements\PowerCatalyst.cs" />
-    <Compile Include="Supplements\Supplement.cs" />
-    <Compile Include="Dog.cs" />
+    <Compile Include="Catalists\AggressionCatalyst.cs" />
+    <Compile Include="Catalists\Catalists.cs" />
+    <Compile Include="Catalists\InfestationSpores.cs" />
+    <Compile Include="ExtendedHoldingPen.cs" />
+    <Compile Include="Units\Queen.cs" />
+    <Compile Include="Units\Parasite.cs" />
+    <Compile Include="Units\Marine.cs" />
+    <Compile Include="Units\Dog.cs" />
+    <Compile Include="Catalists\HealthCatalyst.cs" />
     <Compile Include="HoldingPen.cs" />
-    <Compile Include="Human.cs" />
+    <Compile Include="Units\Human.cs" />
     <Compile Include="InfestationRequirements.cs" />
     <Compile Include="Interaction.cs" />
     <Compile Include="InteractionType.cs" />
     <Compile Include="ISupplement.cs" />
-    <Compile Include="Marine.cs" />
+    <Compile Include="Catalists\PowerCatalyst.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tank.cs" />
-    <Compile Include="Unit.cs" />
+    <Compile Include="Units\Tank.cs" />
+    <Compile Include="Units\Unit.cs" />
     <Compile Include="UnitClassification.cs" />
     <Compile Include="UnitInfo.cs" />
-    <Compile Include="Supplements\Weapon.cs" />
-    <Compile Include="Supplements\WeaponrySkill.cs" />
+    <Compile Include="Catalists\Weapon.cs" />
+    <Compile Include="Catalists\WeaponrySkill.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <None Include="Diagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

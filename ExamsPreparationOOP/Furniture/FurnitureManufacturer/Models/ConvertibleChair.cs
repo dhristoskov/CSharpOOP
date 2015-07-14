@@ -1,44 +1,40 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using FurnitureManufacturer.Interfaces;
 
 namespace FurnitureManufacturer.Models
 {
-    internal class ConvertibleChair : Chair, IConvertibleChair
+    public class ConvertibleChair : Chair, IConvertibleChair
     {
-        private const decimal ConvertedHeight = 0.10m;
+        private const decimal ConvertedHeight = .10m;
         private readonly decimal _heightState;
-        public bool IsConverted { get;private set; }
 
-        public ConvertibleChair(string model, MaterialType material, decimal price, decimal height, int numberOfLegs)
-            : base(model, material, price, height, numberOfLegs)
+        public ConvertibleChair(string model, MaterialType type, decimal price, decimal height, int numberOfLegs)
+            : base(model, type, price, height, numberOfLegs)
         {
             this.IsConverted = false;
             this._heightState = height;
         }
 
+        public bool IsConverted { get; private set; }
+
         public void Convert()
         {
-            if (IsConverted == true)
+            if (IsConverted)
             {
+                this.Height = _heightState;
                 this.IsConverted = false;
-                base.Height = _heightState;
             }
-            else if (IsConverted == false)
+            else
             {
-                this.IsConverted = true;
                 this.Height = ConvertedHeight;
+                this.IsConverted = true;
             }
         }
 
         public override string ToString()
         {
-            return String.Format("Type: {0}, Model: {1}, Material: {2}, Price: {3}, Height: {4}, Legs: {5}, State: {6}",
-                this.GetType().Name, base.Model, base.Material, base.Price, base.Height, base.NumberOfLegs,
-                this.IsConverted ? "Converted" : "Normal");
+            return base.ToString() +
+                   String.Format(", State: {0}", this.IsConverted ? "Converted" : "Normal");
         }
     }
 }

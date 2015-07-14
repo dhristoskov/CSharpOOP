@@ -23,9 +23,9 @@ namespace Infestation
             }
         }
 
-        private static NewHoldingPen InitializePen()
+        private static ExtendedHoldingPen InitializePen()
         {
-            return new NewHoldingPen();
+            return new ExtendedHoldingPen();
         }
     }
 }

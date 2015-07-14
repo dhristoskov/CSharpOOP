@@ -1,6 +1,7 @@
 ﻿using Estates.Engine;
 using Estates.Interfaces;
 using System;
+using System.CodeDom;
 
 namespace Estates.Data
 {
@@ -8,23 +9,23 @@ namespace Estates.Data
     {
         public static IEstateEngine CreateEstateEngine()
         {
-            return new NewEstateEngine();
+            return new ExtendedEstateEngine();
         }
 
         public static IEstate CreateEstate(EstateType type)
         {
             switch (type)
             {
+                case EstateType.Garage:
+                    return new Garage();
                 case EstateType.Apartment:
                     return new Apartment();
                 case EstateType.House:
                     return new House();
-                case EstateType.Garage:
-                    return new Garage();
                 case EstateType.Office:
                     return new Office();
                 default:
-                    throw new AggregateException();
+                    throw new ArgumentException("This type Estate does not exist!");
             }
         }
 
@@ -37,7 +38,7 @@ namespace Estates.Data
                 case OfferType.Sale:
                     return new SaleOffer();
                 default:
-                    throw new AggregateException();
+                    throw new ArgumentException("This type Offer does not exist!");
             }
         }
     }
