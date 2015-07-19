@@ -1,5 +1,0 @@
-D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\FarmerCreed\Farmers-Creed\bin\Debug\Farm.exe
-D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\FarmerCreed\Farmers-Creed\bin\Debug\Farm.pdb
-D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\FarmerCreed\Farmers-Creed\obj\Debug\Farmers-Creed.csprojResolveAssemblyReference.cache
-D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\FarmerCreed\Farmers-Creed\obj\Debug\Farm.exe
-D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\FarmerCreed\Farmers-Creed\obj\Debug\Farm.pdb
