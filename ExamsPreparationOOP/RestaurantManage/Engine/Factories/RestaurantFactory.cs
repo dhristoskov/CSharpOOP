@@ -1,9 +1,9 @@
-﻿
+﻿using RestaurantManager.Models;
+
 namespace RestaurantManager.Engine.Factories
 {
     using System;
     using RestaurantManager.Interfaces.Engine;
-    using RestaurantManager.Models;
 
     public class RestaurantFactory : IRestaurantFactory
     {

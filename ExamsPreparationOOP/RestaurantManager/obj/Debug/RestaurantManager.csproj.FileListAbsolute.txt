@@ -1,5 +1,0 @@
-D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\RestaurantManager\bin\Debug\RestaurantManager.exe
-D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\RestaurantManager\bin\Debug\RestaurantManager.pdb
-D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\RestaurantManager\obj\Debug\RestaurantManager.csprojResolveAssemblyReference.cache
-D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\RestaurantManager\obj\Debug\RestaurantManager.exe
-D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\RestaurantManager\obj\Debug\RestaurantManager.pdb

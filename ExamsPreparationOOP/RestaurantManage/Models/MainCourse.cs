@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
+using System.Text;
 using RestaurantManager.Interfaces;
 
 namespace RestaurantManager.Models
 {
     public class MainCourse : Meal, IMainCourse
     {
-        public MainCourse(string name, decimal price, int calories, int quantityPerServing, int timeToPrepare, bool isVegan,string type) 
+        public MainCourse(string name, decimal price, int calories, int quantityPerServing, int timeToPrepare, bool isVegan, string type) 
             : base(name, price, calories, quantityPerServing, timeToPrepare, isVegan)
         {
             this.Type = (MainCourseType) Enum.Parse(typeof (MainCourseType), type);
@@ -16,7 +16,11 @@ namespace RestaurantManager.Models
 
         public override string ToString()
         {
-            return base.ToString() + "Type: " + this.Type;
+            StringBuilder mainCourse = new StringBuilder(base.ToString());
+            mainCourse.AppendLine();
+            mainCourse.AppendLine(string.Format("Type: {0}", this.Type));
+
+            return mainCourse.ToString();
         }
     }
 }

@@ -1,0 +1,5 @@
+D:\Programming Apps&Projects\VSProjects\ReTake_OOP\RestaurantManage\bin\Debug\RestaurantManager.exe
+D:\Programming Apps&Projects\VSProjects\ReTake_OOP\RestaurantManage\bin\Debug\RestaurantManager.pdb
+D:\Programming Apps&Projects\VSProjects\ReTake_OOP\RestaurantManage\obj\Debug\RestaurantManager.csprojResolveAssemblyReference.cache
+D:\Programming Apps&Projects\VSProjects\ReTake_OOP\RestaurantManage\obj\Debug\RestaurantManager.exe
+D:\Programming Apps&Projects\VSProjects\ReTake_OOP\RestaurantManage\obj\Debug\RestaurantManager.pdb

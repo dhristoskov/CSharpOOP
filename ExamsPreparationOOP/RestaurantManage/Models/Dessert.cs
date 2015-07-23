@@ -1,9 +1,8 @@
-
-using System.Configuration;
+﻿using RestaurantManager.Interfaces;
 
 namespace RestaurantManager.Models
 {
-    public class Dessert : Models.Meal, Interfaces.IDessert
+    public class Dessert:Meal, IDessert
     {
         public Dessert(string name, decimal price, int calories, int quantityPerServing, int timeToPrepare, bool isVegan) 
             : base(name, price, calories, quantityPerServing, timeToPrepare, isVegan)
@@ -20,7 +19,7 @@ namespace RestaurantManager.Models
 
         public override string ToString()
         {
-            return (this.WithSugar ? "" : "[NO SUGAR] ") + base.ToString();
+            return (this.WithSugar ? string.Empty : "[NO SUGAR] ") + base.ToString();
         }
     }
 }

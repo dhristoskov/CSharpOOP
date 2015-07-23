@@ -1,34 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using RestaurantManager.Interfaces;
 
 namespace RestaurantManager.Models
 {
-    public abstract class Recipe:IRecipe
+    public abstract class Recipe : IRecipe
     {
         private string _name;
         private decimal _price;
         protected int _calories;
-        private int _quantityPerServing;      
-        protected int _timeToPrepare;     
+        protected int _timeToPrepare;
+        private int _quantityPerServing;
+        
 
-        protected Recipe(string name,decimal price, int calories,int quantityPerServing,int timeToPrepare, MetricUnit unit)
+        protected Recipe(string name, decimal price, int calories, int quantityPerServing, int timeToPrepare)
         {
             this.Name = name;
             this.Price = price;
             this.Calories = calories;
             this.QuantityPerServing = quantityPerServing;
             this.TimeToPrepare = timeToPrepare;
-            this.Unit = unit;
         }
 
-        #region Propertie   
-
-        public MetricUnit Unit { get; private set; }
-
+        #region Properties
         public string Name
         {
             get { return this._name; }
@@ -36,7 +30,7 @@ namespace RestaurantManager.Models
             {
                 if (String.IsNullOrWhiteSpace(value))
                 {
-                    throw new ArgumentException("The <parameter> is required");
+                    throw  new ArgumentException("The Name is required");
                 }
                 this._name = value;
             }
@@ -47,65 +41,65 @@ namespace RestaurantManager.Models
             get { return this._price; }
             private set
             {
-                if (value <= 0)
+                if (value < 0)
                 {
-                    throw new ArgumentException("The <parameter> must be positive");
+                    throw new ArgumentException("The Price must be positive");
                 }
                 this._price = value;
             }
         }
-
-        public int Calories
+        public virtual int Calories
         {
             get { return this._calories; }
-            protected set
+            set
             {
-                if (value <= 0)
+                if (value < 0)
                 {
-                    throw new ArgumentException("The <parameter> must be positive!");
+                    throw new ArgumentException("The Calories must be positive");
                 }
                 this._calories = value;
             }
         }
-
         public int QuantityPerServing
         {
             get { return this._quantityPerServing; }
             private set
             {
-                if (value <= 0)
+                if (value < 0)
                 {
-                    throw new ArgumentException("The <parameter> must be positive");
+                    throw new ArgumentException("The QuantityPerServing must be positive");
                 }
                 this._quantityPerServing = value;
             }
-        }       
-        public int TimeToPrepare
+        }
+        
+        public virtual int TimeToPrepare
         {
             get { return this._timeToPrepare; }
-            protected set
+            set
             {
-                if (value <= 0)
+                if (value < 0)
                 {
-                    throw new ArgumentException("The <parameter> must be positive");
+                    throw new ArgumentException("The TimeToPrepare must be positive");
                 }
                 this._timeToPrepare = value;
             }
         }
+        public MetricUnit Unit { get; set; }
 
         #endregion
 
+
         public override string ToString()
         {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine(string.Format("==  {0} == ${1:F2}", this.Name, this.Price));
-            sb.AppendLine(string.Format("Per serving: {0} {1}, {2} kcal", this.QuantityPerServing, this.Unit == MetricUnit.Grams ? "g" : "ml",
+            StringBuilder recipe = new StringBuilder();
+            recipe.AppendLine(string.Format("==  {0} == ${1:F2}", this.Name, this.Price));
+            recipe.AppendLine(string.Format("Per serving: {0} {1}, {2} kcal", this.QuantityPerServing, this.Unit == MetricUnit.Grams ? "g" : "ml",
                 this.Calories));
-            sb.AppendLine(string.Format("Ready in {0} minutes", this.TimeToPrepare));
+            recipe.Append(string.Format("Ready in {0} minutes", this.TimeToPrepare));
 
-            return sb.ToString();
+            return recipe.ToString();
         }
+
     }
 }
-
-

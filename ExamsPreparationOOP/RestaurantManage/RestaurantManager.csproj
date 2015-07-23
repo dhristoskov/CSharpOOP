@@ -64,6 +64,7 @@
     <Compile Include="Models\Salad.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="RestaurantDiagram.cd" />
     <None Include="Interfaces\ClassDiagramInterfaces.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
