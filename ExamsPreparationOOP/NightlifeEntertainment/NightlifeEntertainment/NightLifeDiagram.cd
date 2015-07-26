@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NightlifeEntertainment.Venues.Cinema" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Venues\Cinema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NightlifeEntertainment.CinemaEngine" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAIAAIAQAAAAACBIAAAACAAAAxAAQQAAAABABAA=</HashCode>
+      <FileName>CinemaEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NightlifeEntertainment.NightlifeEntertainmentProgram" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAA=</HashCode>
+      <FileName>NightlifeEntertainmentProgram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NightlifeEntertainment.Performances.Performance" Collapsed="true">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAABQEAIAgAACAAAAAAAQAIAAEAAAAAQAAAAAAAAE=</HashCode>
+      <FileName>Performances\Performance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NightlifeEntertainment.Tickets.RegularTicket" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tickets\RegularTicket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NightlifeEntertainment.Tickets.Ticket" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAEAQAAAABEQAAAQABAAAAAABIAAQAQAAAAAAA=</HashCode>
+      <FileName>Tickets\Ticket.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NightlifeEntertainment.Venues.Venue" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAEAAAABAAAAgIAAAQCAAAEAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Venues\Venue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NightlifeEntertainment.Venues.OperaHall" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Venues\OperaHall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NightlifeEntertainment.Venues.SportsHall" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Venues\SportsHall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NightlifeEntertainment.Venues.ConcertHall" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Venues\ConcertHall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NightlifeEntertainment.Performances.Theatre" Collapsed="true">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Performances\Theatre.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NightlifeEntertainment.Performances.Movie" Collapsed="true">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Performances\Movie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NightlifeEntertainment.Performances.Concert" Collapsed="true">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Performances\Concert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NightlifeEntertainment.Tickets.StudentTicket" Collapsed="true">
+    <Position X="9.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Tickets\StudentTicket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NightlifeEntertainment.Tickets.VIPTicket" Collapsed="true">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Tickets\VIPTicket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NightlifeEntertainment.ExtendedCinemaEngine" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExtendedCinemaEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="NightlifeEntertainment.Interfaces.IPerformance" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAABAAAIAAAAAAAAAAAAQAIAAAAAAAAQAAAAAAAAE=</HashCode>
+      <FileName>Interfaces\IPerformance.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NightlifeEntertainment.Interfaces.ITicket" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAQAAAAAAQAAAQABAAAAAABAAAQAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ITicket.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NightlifeEntertainment.Interfaces.IVenue" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAgIAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IVenue.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="NightlifeEntertainment.Enums.PerformanceType" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAEAAAAAAAAAAAAAAAAAAAAACAEAAABAA=</HashCode>
+      <FileName>Enums\PerformanceType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NightlifeEntertainment.Enums.TicketStatus" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\TicketStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NightlifeEntertainment.Enums.TicketType" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Enums\TicketType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

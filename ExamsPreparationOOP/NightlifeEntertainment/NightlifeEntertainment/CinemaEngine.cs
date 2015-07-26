@@ -1,4 +1,10 @@
-﻿namespace NightlifeEntertainment
+﻿using NightlifeEntertainment.Enums;
+using NightlifeEntertainment.Interfaces;
+using NightlifeEntertainment.Performances;
+using NightlifeEntertainment.Tickets;
+using NightlifeEntertainment.Venues;
+
+namespace NightlifeEntertainment
 {
     using System;
     using System.Collections.Generic;

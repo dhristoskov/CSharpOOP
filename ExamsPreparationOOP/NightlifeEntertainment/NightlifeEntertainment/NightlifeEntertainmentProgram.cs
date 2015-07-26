@@ -9,7 +9,7 @@
         public static void Main()
         {
             Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
-            CinemaEngine engine = new NewCinemaEngine();
+            CinemaEngine engine = new ExtendedCinemaEngine();
             StartOperations(engine);
         }
 

@@ -1,1 +1,6 @@
-D:\Programming Apps&Projects\VSProjects\ExamsPreparationOOP\NightlifeEntertainment\NightlifeEntertainment\bin\Debug\NightlifeEntertainment.exe.config
+D:\Programming Apps&Projects\VSProjects\ReTake_OOP\NightlifeEntertainment\NightlifeEntertainment\bin\Debug\NightlifeEntertainment.exe.config
+D:\Programming Apps&Projects\VSProjects\ReTake_OOP\NightlifeEntertainment\NightlifeEntertainment\bin\Debug\NightlifeEntertainment.exe
+D:\Programming Apps&Projects\VSProjects\ReTake_OOP\NightlifeEntertainment\NightlifeEntertainment\bin\Debug\NightlifeEntertainment.pdb
+D:\Programming Apps&Projects\VSProjects\ReTake_OOP\NightlifeEntertainment\NightlifeEntertainment\obj\Debug\NightlifeEntertainment.csprojResolveAssemblyReference.cache
+D:\Programming Apps&Projects\VSProjects\ReTake_OOP\NightlifeEntertainment\NightlifeEntertainment\obj\Debug\NightlifeEntertainment.exe
+D:\Programming Apps&Projects\VSProjects\ReTake_OOP\NightlifeEntertainment\NightlifeEntertainment\obj\Debug\NightlifeEntertainment.pdb
